@@ -1,0 +1,42 @@
+.section-details {
+    background-color: teal;
+    height: 50vh;
+    background-image: url(../img/orlando-dental-office.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+
+.section-about {
+    background-color: $color-primary-dark;
+    height: 20rem;
+}
+
+.section-services {
+    background-color: $color-light;
+    height: 40rem;
+}
+
+.section-experience {
+    background-image: url(../img/orlando-orthodontist.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 85rem;
+
+}
+
+.section-review {
+    background-color: $color-primary-dark;
+    height: 45rem;
+}
+
+.section-insurance {
+    background-color: white;
+    height: 30rem;
+}
+
+.section-footer {
+    background-color: $color-primary-dark;
+    height: 20rem;
+}

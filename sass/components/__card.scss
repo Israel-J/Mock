@@ -1,0 +1,57 @@
+.card {
+    text-align: center;
+    height: 30rem;
+    color: $color-primary-dark;
+    position: relative;
+
+    &__content {
+        position: absolute;
+        top: -5rem;
+        left: 0;
+        outline: 2px solid $color-primary-light;
+        outline-offset: -15px;
+        height: 35rem;
+        
+        
+        // box-shadow: inset 0px 0px 0px 10px red;
+    }
+
+
+    &__picture {
+        background-size: cover;
+        height: 15rem;
+
+        &-1 {
+            background-image: url(../img/orlando-cosmetic-dentistry.jpg);
+        }
+
+        &-2 {
+            background-image: url(../img/orlando-dental-implants.jpg);
+        }
+
+        &-3 {
+            background-image: url(../img/orlando-facial-aesthetics.jpg);
+        }
+    }
+
+    &_heading {
+        font-weight: 700;
+        margin-top: 2.6rem;
+        font-family: "Domine", serif;
+
+        &:after {
+            display: block;
+            height: 1px;
+            background-color: $color-primary-dark;
+            content: " ";
+            width: 170px;
+            margin: 0 auto;
+            margin-top: 20px;
+          }
+    }
+
+    &__text {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}

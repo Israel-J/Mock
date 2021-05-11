@@ -1,0 +1,15 @@
+{
+  "name": "mockwebsite",
+  "version": "1.0.0",
+  "description": "PureSmiles",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "Israel",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

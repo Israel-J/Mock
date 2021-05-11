@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-family: "Roboto", serif; }
+
+.about__header {
+  text-align: center;
+  color: white;
+  margin-top: 3.8rem;
+  font-family: "Roboto", serif; }
+  .about__header__typography {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 700; }
+    .about__header__typography-1 {
+      color: #edeeef;
+      margin: -15px;
+      font-size: 1.5rem; }
+
+.experience__img {
+  width: 30rem; }
+
+.work__experience {
+  text-align: left;
+  margin-top: 9rem; }
+  .work__experience-main {
+    letter-spacing: 2px;
+    font-family: "Domine", serif;
+    color: #3184af;
+    font-size: 3.5rem;
+    font-weight: 100; }
+    .work__experience-main:after {
+      display: block;
+      height: 1px;
+      background-color: #105d7d;
+      content: " ";
+      width: 220px;
+      margin-top: 20px; }
+  .work__experience-sub {
+    font-family: "Roboto", serif;
+    color: #105d7d;
+    font-size: 18px;
+    margin-top: 2rem; }
+    .work__experience-sub-important {
+      font-weight: 900; }
+    .work__experience-sub-1 {
+      color: #105d7d;
+      font-size: 18px; }
+  .work__experience__list {
+    font-family: "Roboto", serif;
+    color: #105d7d;
+    font-size: 18px; }
+
+.services {
+  text-align: center;
+  color: #105d7d;
+  margin-top: 7rem; }
+  .services__icon {
+    width: 4rem; }
+  .services__header {
+    font-family: "Domine", serif;
+    margin-top: 1.5rem;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    font-weight: 100; }
+
+.customer {
+  margin-top: 5rem; }
+  .customer__img {
+    width: 6rem; }
+  .customer__review {
+    font-family: "Roboto", serif;
+    margin-top: 2rem;
+    font-size: 26px;
+    color: #edeeef; }
+    .customer__review-1 {
+      margin-top: 3rem;
+      color: white;
+      font-size: 26px; }
+  .customer-button {
+    margin-top: 30px; }
+
+.insurance__header {
+  font-size: 3rem;
+  font-family: "Domine", serif;
+  color: #3184af;
+  margin-top: 5rem; }
+  .insurance__header:after {
+    display: block;
+    height: 1px;
+    background-color: #105d7d;
+    content: " ";
+    width: 195px;
+    margin-top: 20px; }
+
+.insurance__list {
+  font-weight: 400;
+  color: #105d7d;
+  list-style-type: none;
+  font-size: 25px;
+  margin-top: 1.5rem; }
+
+.footer {
+  margin-top: 3rem; }
+  .footer__icon {
+    width: 8rem; }
+  .footer__text {
+    color: white;
+    margin-top: 15px; }
+
+.footer__content {
+  color: white;
+  margin-top: 5rem; }
+  .footer__content__header {
+    font-family: "Domine", serif;
+    font-size: 18px; }
+    .footer__content__header-2 {
+      margin-top: 35px; }
+  .footer__content__nav li, .footer__content a {
+    list-style-type: none;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px; }
+
+.vl {
+  border-left: 1px solid white;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  margin-top: 50px;
+  top: 0; }
+
+.header__contact {
+  background-color: #105d7d;
+  height: 2.7rem; }
+  .header__contact-info {
+    color: white;
+    text-align: right;
+    padding-top: 6px;
+    font-size: 1.2rem;
+    margin-right: 8.5rem; }
+
+.header {
+  background-color: teal;
+  height: 80vh;
+  background-image: url(../img/orlando-florida-dentist.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative; }
+  .header .text-box {
+    border: 1.8px solid white;
+    width: 95rem;
+    height: 34rem;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+
+.heading-primary {
+  margin-top: 50px;
+  color: #edeeef;
+  text-align: left; }
+  .heading-primary-logo {
+    width: 7%; }
+  .heading-primary .heading-primary-main {
+    font-family: "Domine", serif;
+    font-size: 4.5rem;
+    display: block;
+    text-align: left; }
+    .heading-primary .heading-primary-main:after {
+      display: block;
+      height: 2px;
+      background-color: white;
+      content: " ";
+      width: 100px;
+      text-align: left;
+      margin-top: 40px; }
+  .heading-primary .heading-primary-sub {
+    font-family: "Domine", serif;
+    width: 60%;
+    font-size: 1.9rem;
+    display: block;
+    text-align: left;
+    margin-top: 4rem; }
+
+.navbar-logo {
+  margin-left: 7rem;
+  width: 6rem; }
+
+.nav-link {
+  font-size: 20px !important;
+  color: #105d7d !important; }
+
+.navbar-custom {
+  background-color: white; }
+
+.button {
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: .8rem 1.2rem;
+  font-size: .8rem; }
+  .button:hover {
+    text-decoration: none;
+    color: #105d7d; }
+  .button-green {
+    color: #105d7d;
+    background: #87cd63; }
+  .button-blue {
+    padding: .8rem 2.5rem;
+    color: #edeeef;
+    background-color: #3184af; }
+    .button-blue:hover {
+      text-decoration: none;
+      color: #edeeef; }
+  .button-transparent {
+    padding: .8rem 2.5rem;
+    color: #edeeef;
+    border: 1px solid #edeeef; }
+    .button-transparent:hover {
+      text-decoration: none;
+      color: #edeeef; }
+
+.button-header {
+  margin-top: 2rem; }
+
+.button-experience {
+  margin-top: 32px;
+  padding: .8rem 2rem;
+  letter-spacing: 1px; }
+
+.detail-box {
+  margin-top: 9rem;
+  text-align: center;
+  border: 1.8px solid #105d7d;
+  padding: 50px;
+  position: relative; }
+  .detail-box__icon {
+    background-image: white;
+    position: absolute;
+    top: -30px;
+    left: 41%;
+    width: 4rem; }
+  .detail-box__text {
+    color: #105d7d;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 1px; }
+
+.heading-tertiary {
+  color: #105d7d;
+  font-family: "Domine", serif;
+  font-weight: 600;
+  font-size: 2.5rem; }
+  .heading-tertiary:after {
+    display: block;
+    height: 1px;
+    background-color: #105d7d;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px; }
+
+.card {
+  text-align: center;
+  height: 30rem;
+  color: #105d7d;
+  position: relative; }
+  .card__content {
+    position: absolute;
+    top: -5rem;
+    left: 0;
+    outline: 2px solid #3184af;
+    outline-offset: -15px;
+    height: 35rem; }
+  .card__picture {
+    background-size: cover;
+    height: 15rem; }
+    .card__picture-1 {
+      background-image: url(../img/orlando-cosmetic-dentistry.jpg); }
+    .card__picture-2 {
+      background-image: url(../img/orlando-dental-implants.jpg); }
+    .card__picture-3 {
+      background-image: url(../img/orlando-facial-aesthetics.jpg); }
+  .card_heading {
+    font-weight: 700;
+    margin-top: 2.6rem;
+    font-family: "Domine", serif; }
+    .card_heading:after {
+      display: block;
+      height: 1px;
+      background-color: #105d7d;
+      content: " ";
+      width: 170px;
+      margin: 0 auto;
+      margin-top: 20px; }
+  .card__text {
+    font-size: 15px;
+    margin-top: 20px; }
+
+.form {
+  background-color: white;
+  height: 40rem;
+  position: relative; }
+  .form-content {
+    outline: 2px solid #105d7d;
+    outline-offset: -18px;
+    width: 100%;
+    position: absolute;
+    top: -5rem;
+    left: 0; }
+  .form-header {
+    background-color: #3184af;
+    height: 15rem; }
+    .form-header-text {
+      margin: 50px 50px;
+      color: white;
+      font-size: 3.5rem;
+      font-family: "Domine", serif; }
+  .form-button {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: .8rem 2rem;
+    letter-spacing: 1px; }
+
+form {
+  text-align: center; }
+
+textarea {
+  height: 100px; }
+
+input[type=text],
+input[type=email],
+textarea {
+  background-color: #edeeef;
+  width: 80%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  resize: none; }
+
+.section-details {
+  background-color: teal;
+  height: 50vh;
+  background-image: url(../img/orlando-dental-office.jpg);
+  background-size: cover;
+  background-position: bottom; }
+
+.section-about {
+  background-color: #105d7d;
+  height: 20rem; }
+
+.section-services {
+  background-color: #edeeef;
+  height: 40rem; }
+
+.section-experience {
+  background-image: url(../img/orlando-orthodontist.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 85rem; }
+
+.section-review {
+  background-color: #105d7d;
+  height: 45rem; }
+
+.section-insurance {
+  background-color: white;
+  height: 30rem; }
+
+.section-footer {
+  background-color: #105d7d;
+  height: 20rem; }

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header__contact {
+  background-color: #105d7d;
+  height: 2.7rem;
+}
+
+.header__contact-info {
+  color: white;
+  text-align: right;
+  padding-top: 6px;
+  font-size: 1.2rem;
+  margin-right: 8.5rem;
+}
+
+.header {
+  background-color: teal;
+  height: 70vh;
+  background-image: url(../img/orlando-florida-dentist.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+.header .text-box {
+  border: 1.8px solid white;
+  width: 95rem;
+  height: 34rem;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary {
+  margin-top: 50px;
+  color: #edeeef;
+  text-align: left;
+}
+
+.heading-primary-logo {
+  width: 7%;
+}
+
+.heading-primary .heading-primary-main {
+  font-size: 4rem;
+  display: block;
+  text-align: left;
+}
+
+.heading-primary .heading-primary-sub {
+  width: 60%;
+  font-size: 1.9rem;
+  display: block;
+  text-align: left;
+  margin-top: 4rem;
+}
+
+.button {
+  letter-spacing: -1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: .8rem 1.2rem;
+  font-size: .8rem;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: #105d7d;
+}
+
+.button-green {
+  color: #105d7d;
+  background: #87cd63;
+}
+
+.button-header {
+  margin-top: 2rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=main.css.map */

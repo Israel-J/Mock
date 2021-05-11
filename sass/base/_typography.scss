@@ -1,0 +1,195 @@
+.about__header {
+    text-align: center;
+    color: white;
+    margin-top: 3.8rem;
+    font-family: "Roboto", serif;
+
+    &__typography{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        font-weight: 700;
+
+        &-1{
+            color: $color-light;
+            margin: -15px;
+            font-size: 1.5rem;
+
+        }
+    }
+
+}
+
+.experience__img {
+    width: 30rem;
+}
+
+.work__experience {
+    text-align: left;
+    margin-top: 9rem;
+
+    &-main {
+        letter-spacing: 2px;
+        font-family: "Domine", serif;
+        color: $color-primary-light;
+        font-size: 3.5rem;
+        font-weight: 100;
+
+        &:after {
+            display: block;
+            height: 1px;
+            background-color: $color-primary-dark;
+            content: " ";
+            width: 220px;
+            margin-top: 20px;
+          }
+        
+    }
+
+    &-sub {
+        font-family: "Roboto", serif;
+        color: $color-primary-dark;
+        font-size: 18px;
+        margin-top: 2rem;
+
+        &-important {
+            font-weight: 900;
+        }
+
+        &-1{
+            color: $color-primary-dark;
+            font-size: 18px;
+        }
+
+    }
+
+    &__list {
+        font-family: "Roboto", serif;
+        color: $color-primary-dark;
+        font-size: 18px;
+    }
+}
+
+.services {
+    text-align: center;
+    color: $color-primary-dark;
+    margin-top: 7rem;
+   
+    &__icon {
+        width: 4rem;
+    }
+
+    &__header {
+        font-family: "Domine", serif;
+        margin-top: 1.5rem;
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+
+}
+
+.customer {
+    margin-top: 5rem;
+    &__img {
+       width: 6rem;
+    }
+
+    &__review {
+        font-family: "Roboto", serif;
+        margin-top: 2rem;
+        font-size: 26px;
+        color: $color-light;
+
+        &-1 {
+            margin-top: 3rem;
+            color: white;
+            font-size: 26px;
+        }
+    }
+
+    &-button {
+        margin-top: 30px;
+    }
+}
+
+// INSURANCE 
+.insurance {
+
+    &__header {
+        font-size: 3rem;
+        font-family: "Domine", serif;
+        color: $color-primary-light;
+        margin-top: 5rem;
+
+        &:after {
+            display: block;
+            height: 1px;
+            background-color: $color-primary-dark;
+            content: " ";
+            width: 195px;
+            margin-top: 20px;
+          }
+
+    }
+
+}
+
+.insurance__list {
+    font-weight: 400;
+    color: $color-primary-dark;
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 1.5rem;
+}
+
+// FOOTER
+
+.footer {
+    
+    margin-top: 3rem;
+    &__icon {
+        width: 8rem;
+    }
+
+    &__text {
+        color: white;
+        margin-top: 15px;
+    }
+
+
+}
+
+.footer__content {
+    color: white;
+    margin-top: 5rem;
+
+    &__header {
+        font-family: "Domine", serif;
+        font-size: 18px;
+
+        &-2 {
+            margin-top: 35px;
+        }
+    }
+    
+
+    &__nav li, a{
+        list-style-type: none;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        margin-top: 10px;
+              
+    }
+
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    top: 0;
+  }
+
