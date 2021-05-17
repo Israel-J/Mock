@@ -1,0 +1,294 @@
+/*Big tablet to 1200px (widths smaller than the 1140px row)*/
+
+@media only screen and (max-width: 1792px) {
+    /* .section-experience {
+        height: initial ;
+    }
+    
+    .section-review {
+        height: initial;
+    } */
+}
+
+@media only screen and (max-width:1200px) {
+    .text-box {
+        border: 1.8px solid white !important;
+        width: 100% !important;
+      }
+
+ .heading-primary-sub {
+     font-size: 20px;
+ }
+
+ .nav-link {
+    font-size: 14px !important;
+}
+
+/* .section-experience {
+    height: 80rem ;
+}
+
+.section-review {
+    height: 50rem ;
+} */
+
+.form-header-text {
+    font-size: 50px;
+}
+
+}
+
+
+/*small tablet to big tablets from 768-1023px  or 991*/
+@media only screen and (max-width: 1023px) {
+
+    section {
+        padding: 1px 0;
+    }
+
+    .heading-primary-sub {
+        font-size: 20px !important;
+    }
+
+
+    .section-details {
+        height: 55rem;
+    }
+
+    .nav-link {
+        font-size: 1px !important;
+    }
+    
+    
+
+    .nav-link {
+        font-size: 16px !important;
+       
+    }
+
+    .about__header p {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 100% !important;
+    }
+
+    .card__content h4 {
+        font-size: 15px !important;
+    }
+
+    .section-experience {
+        height: 130rem ;
+    }
+    .section-review {
+        height: 50rem ;
+    }
+
+    .form-header h4{
+        font-size: 50px !important;
+    }
+
+    .section-insurance {
+        height: 27rem;
+    }
+
+    .section-services {
+        height: 110rem;
+    }
+
+    .insurance__list {
+        font-size: 12px ;
+    }
+
+    .section-footer {
+        height: inherit;
+         
+    }
+
+    .card {
+        margin-bottom:  7rem;
+    }
+  
+
+}
+
+
+/* @media only screen and (max-width:854px) {
+    .heading-primary-main {
+        font-size: 50px !important;
+    }
+
+    .heading-primary-sub {
+        font-size: 20px !important;
+    }
+
+    .section-details {
+        height: 55rem;
+    }
+
+    .about__header p {
+        font-size: 16px;
+    }
+
+    .section-services {
+        height: 110rem;
+    }
+
+    .section-experience {
+        height: 60rem !important;
+    }
+
+    .section-review {
+        height: 55rem !important;
+    }
+}  */
+
+@media only screen and (max-width:767px) {
+
+    .section-details {
+
+        background-position: 100% ;
+    }
+
+    .section-experience {
+        
+        background-position: 35vmin;
+    }
+
+    .about__header p {
+        font-size: 14px ;
+    }
+
+
+    .header__contact-info p {
+        font-size: 14px;
+    }
+
+    .heading-primary-sub {
+        font-size: 15px !important;
+    }
+
+    
+    .section-details {
+        height: 80rem;
+    }
+
+    .section-experience {
+        height: 175rem ;
+    }
+    
+    .section-review {
+        height: 85rem ;
+    }
+
+    .navbar-logo {
+        width: 65px;
+        margin-left: 0rem;
+    }
+
+    .footer__icon {
+        width: 70px;
+    }
+
+    .heading-primary-main {
+        font-size: 50px !important;
+    }
+
+    .heading-primary-logo {
+        width: 70px;
+    }
+
+    .insurance__header {
+        font-size: 45px;
+    }
+
+}
+
+
+
+
+/*SMALL PHONES from 0-480px */
+@media only screen and (max-width:480px) {
+
+    .header__contact-info p {
+        font-size: 13px;
+        
+    }
+
+    .heading-primary-sub {
+        font-size: 15px !important;
+        
+    }
+
+    .heading-primary-main {
+        font-size: 55px !important;
+    }
+
+    .about__header p {
+        font-size: 10px !important;
+    }
+
+    .section-details {
+        height: 77rem;
+    }
+
+    .about__header p {
+        font-size: 14px;
+    }
+
+    .section-services {
+        height: 110rem;
+    }
+
+    .section-experience {
+        height: 175rem ;
+    }
+
+    .section-review {
+        height: 85rem ;
+    }
+
+    .card {
+        margin-bottom:  7rem;
+    }
+
+    .section-insurance {
+        height: 33rem;
+    }
+
+    .insurance__list {
+        font-size: 12px;
+    }
+
+    .insurance__header {
+        font-size: 35px;
+    }
+
+    
+}
+
+@media only screen and (max-width:380px) {
+
+    .navbar-logo {
+        width: 65px;
+        margin-left: 0rem;
+    }
+
+    .footer__icon {
+        width: 70px;
+    }
+
+    .heading-primary-logo {
+        width: 70px;
+    }
+
+    .heading-primary-main {
+        font-size: 45px !important;
+    }
+
+    .experience__img {
+        width: 100%;
+    }
+
+}
