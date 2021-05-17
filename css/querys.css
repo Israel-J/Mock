@@ -266,7 +266,8 @@
     }
 
     .experience__img {
-        width: 100% !important;
+        width: 20rem;
+        margin: 25px 25px;
         
     }
 
