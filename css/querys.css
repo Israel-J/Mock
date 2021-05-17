@@ -265,6 +265,11 @@
         font-size: 35px;
     }
 
+    .experience__img {
+        width: 100% !important;
+        
+    }
+
     
 }
 
@@ -289,6 +294,7 @@
 
     .experience__img {
         width: 100%;
+        
     }
 
 }
